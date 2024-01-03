@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 40px;
     font-size: 20px;
 }
@@ -21,7 +21,6 @@ article{
 .card{
     width: 600px;
     height: 500px;
-    border: 1px solid black;
     margin-top: 20px;
 }
 .card-btn{
