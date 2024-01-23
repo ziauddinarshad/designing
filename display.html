@@ -10,25 +10,32 @@
 </head>
 <body class="container-fluid">
     <header>
-        <div style="font-size: 30px;font-weight: bold;font-family: arial;">
-            Shopper.
+       <div class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div>
+                Shpooer.
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#dropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="dropdown">
+                <div class="navbar-nav">
+                    <div id="navigationItems">
+                    <div class="nav-item ms-4">Home</div>
+                    <div class="nav-item ms-4">Catalog</div>
+                    <div class="nav-item ms-4">Shop</div>
+                    <div class="nav-item ms-4">Pages</div>
+                    </div>
+                    <div class="nav-item" id="navItems">
+                        <span class="bi bi-search"></span>
+                        <span class="bi bi-heart"></span>
+                        <span class="bi bi-person"></span>
+                        <span class="bi bi-cart4"></span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <nav>
-                <span>Home</span>
-                <span>Catalog</span>
-                <span>Page</span>
-                <span>Shop</span>
-                <span>Blog</span>
-                <span>Doc</span>
-            </nav>
-        </div>
-        <div style="margin-left: 5px;">
-            <span class="bi bi-search"></span>
-            <span class="bi bi-person"></span>
-            <span class="bi bi-heart"></span>
-            <span class="bi bi-cart4"></span>
-        </div>
+       </div>
     </header>
     <article>
         <div>
@@ -115,7 +122,7 @@
             </div>
         </div>
             <div style="padding: 10px;"><img src="public/images/printed-shirt.jpg" width="100%" height="400px">
-                <div class="type">
+                <div class="type-1">
                     <p>Women Fishon</p>
                     <button  class="btn btn-bright">Shop Now <span class="bi bi-arrow-right"></span></button>
                 </div>
@@ -124,7 +131,7 @@
         </div>
         <div class="offer2">
            <div style="padding: 10px;"><img src="public/images/for men look.jpg" width="100%" height="400px">
-            <div class="type">
+            <div class="type-1">
                 <p>Men Fishon</p>
                 <button  class="btn btn-bright">Shop Now <span class="bi bi-arrow-right"></span></button>
             </div>
@@ -146,7 +153,7 @@
           </div>
         </div>
         <div class="shopping">
-            <div class="All-cards">
+            <div class="All-cards" id="misscard">
             <div class="card-1">
             <div class="shop-card">
                 <img src="public/images/girl-girl-1.jpg" width="100%" height="295px">
@@ -197,7 +204,7 @@
                         <div>&#8377 149/-</div>
                     </div>
                     </div>
-                    <div class="All-cards">
+                    <div class="All-cards"id="misscard">
                         <div class="card-1">
                         <div class="shop-card">
                             <img src="public/images/men-3.jpg" width="100%" height="295px">
@@ -216,7 +223,7 @@
                         </div>
         </div>
         <div class="shopping">
-            <div class="All-cards">
+            <div class="All-cards"id="misscard">
             <div class="card-1">
             <div class="shop-card">
                 <img src="public/images/women-22.jpg" width="100%" height="295px">
@@ -250,7 +257,7 @@
                     <div>&#8377 149/-</div>
                 </div>
                 </div>
-                <div class="All-cards">
+                <div class="All-cards"id="misscard">
                     <div class="card-1">
                     <div class="shop-card">
                         <img src="public/images/kid-2.jpg" width="100%" height="295px">
@@ -286,5 +293,234 @@
                         </div>
         </div>
     </section>
+    <section>
+      <div class="carousel slide " data-bs-ride="carousel" di="carouselExampleCaptions">
+        <div class="carousel bg-dark" data-bs-ride="carousel" id="carouselExampleCaptions">
+            <div class="carousel-indicators">
+                <button data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+                <button data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+            </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active"> <!--slot-1-->
+                <div id="could">
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6 w-25">
+                            <img src="public/images/b-baag.jpg" class="w-100" >
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6">
+                            <img src="public/images/department-1.jpg" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6">
+                            <img src="public/images/department-2.jpg" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item"><!--slot-2-->
+                <div id="could">
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6">
+                            <img src="public/images/department-3.jpg" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6 w-25">
+                            <img src="public/images/shoe-ss.jpg" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6 w-25">
+                            <img src="public/images/shoes-s.jpg" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item"><!--slot-3-->
+                <div id="could">
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6"> 
+                            <img src="public/images/department-4.jpg" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6 w-25">
+                            <img src="public/images/men-2 look.jpg" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header row">
+                        <div class="col-6 w-25">
+                            <img src="public/images/women-1.jpg" class="w-100">
+                        </div>
+                        <div class="col-6">
+                            <p>Bag's</p>
+                            <p>Low top sneakers</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>From creepth said move given dived make multiply of him shall itself also above seccond doese't unto created saying land herb sea midst night wherein</p>
+                    </div>
+                    <div class="cards-footer">
+                        <p>Long Edwards, 01</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+   <footer>
+    <div id="fotter-top">
+        <p>Want style Ideas and Treats?</p>
+            <input type="text" class="form-text">
+            <button class="btn btn-dark">Subscrib</button>
+    <div id="footer">
+       <div id="fotter-details">
+       <div class="fs-1">shopper</div>
+           <span class="bi bi-facebook"></span>
+           <span class="bi bi-youtub"></span>
+           <span class="bi bi-twitter"></span>
+           <span class="bi bi-instagram"></span>
+       </div>
+       <div>
+       <div class="footer-title">SUPPORT</div>
+       <div id="fotter-details">
+           Contact Us<br>
+           FAQs<br>
+           Size Guide<br>
+           Shipping & Returns
+        </div>   
+       </div>
+       <div>
+       <div class="footer-title" id="fotter-hide">SHOP</div>
+       <div id="fotter-hide">
+           Men's Shopping<br>
+           Women's Shopping<br>
+           Kids' Shopping<br>
+           Discounts
+        </div>   
+       </div>
+       <div>
+       <div class="footer-title" id="fotter-hide"> COMPANY</div>
+       <div id="fotter-hide">
+           Careers<br>
+           Our Story<br>
+           Terms & Conditions<br>
+           Privacy & Cookie policy<br>
+       </div>
+       </div>
+       <div>
+       <div class="footer-title"> CONTACT</div>
+       <div id="fotter-details">
+           1-202-555-0105<br>
+           help@shopper.com<br>
+        </div>   
+       </div>
+       </div>
+       </div>
+   </footer>
 </body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
 </html>

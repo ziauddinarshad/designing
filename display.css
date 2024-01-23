@@ -1,11 +1,17 @@
+@media screen and (orientation:landscape){
 header{
     display: flex;
-    justify-content: space-evenly;
     margin-top: 40px;
     font-size: 20px;
-}
-nav span{
     margin-left: 20px;
+}
+#navigationItems{
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    margin-left: 500px;
 }
 article{
     display: flex;
@@ -129,4 +135,109 @@ article{
 .card-1:hover{
     transform: scale(10px);
     box-shadow: 3px 3px 3px 2.5px rgb(63, 62, 62);
+}
+#could{
+    width: 1050px;
+    height: 600px;
+    display: flex;
+    margin-left: 160px;
+    justify-content: center;
+}
+#carouselExampleCaptions{
+    border-radius: 50px;
+}
+
+footer{
+    background-color: rgb(80, 76, 76);
+    color: white;
+    padding: 20px;
+   
+}
+#footer{
+    display:grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    font-family: arial;
+    margin-top: 50px;
+}
+.footer-title{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: 25px;
+}
+#fotter-top{
+    text-align: center;
+}
+}
+@media screen and (orientation:portrait){
+    #navItems{
+        display: none;
+    }
+    article{
+        display:none;
+    }
+    .cards-set .card-btn{
+        padding: 5px;border-radius:5px;
+        display: flex;
+        justify-content: center;
+    }
+    .card-set .card-title{
+        align-items: center;
+    }
+    .cards-footer{
+        display: none;
+    }
+    .best{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .best .b1{
+        color: gray;
+    }
+    .best .b2{
+        font-family: arial;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 7px;
+    }
+    .best .b3{
+        color: rgb(51, 50, 50);
+    }
+     .offer img  {
+         transition: 1s;
+     }
+     .offer img:hover {
+         transform: translate(3px);
+         box-shadow: 3px 3px 3px 3px rgb(58, 57, 57);
+     }
+     .All-cards{
+        display: none;
+     }
+     footer{
+        background-color: rgb(80, 76, 76);
+        color: white;
+        padding: 20px;
+       
+    }
+    #footer{
+        display:grid;
+        grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+        font-family: arial;
+        margin-top: 50px;
+    }
+    .footer-title{
+        margin-bottom: 25px;
+        font-size: 15px;
+        font-family: arial;
+        font-weight: 25px;
+    }
+    #fotter-top{
+        text-align: center;
+    }
+    #fotter-details{
+        font-size: 18px ;
+    }
+    #fotter-hide{
+        display: none;
+    }
 }
